@@ -9,7 +9,20 @@
         "symfony/dotenv": "4.2.*",
         "symfony/flex": "^1.1",
         "symfony/framework-bundle": "4.2.*",
-        "symfony/yaml": "4.2.*"
+        "symfony/yaml": "4.2.*",
+        "ext-json": "*",
+        "symfony/asset": "^4.1",
+        "symfony/serializer": "^4.1",
+        "symfony/twig-bundle": "^4.1",
+        "symfony/validator": "^4.1",
+        "nelmio/api-doc-bundle": "^3.2",
+        "ninsuo/symfony-collection": "dev-master",
+        "sensio/framework-extra-bundle": "^5.2",
+        "doctrine/annotations": "^1.6",
+        "symfony/orm-pack": "^1.0"
+    },
+    "require-dev": {
+        "symfony/profiler-pack": "^1.0"
     },
     "config": {
         "preferred-install": {

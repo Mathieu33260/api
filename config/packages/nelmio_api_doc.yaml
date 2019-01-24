@@ -1,0 +1,9 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: API du marabou
+            description: C'est pas sorcier
+            version: 1.0.0
+    areas: # to filter documented areas
+        default:
+            path_patterns: [ ^/reservations/, ^/horaires/ ]
